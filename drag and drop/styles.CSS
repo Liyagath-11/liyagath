@@ -1,0 +1,33 @@
+/* Styling for draggable items */
+.draggable {
+     width: 100px;
+     height: 100px;
+     background-color: lightblue;
+     margin: 10px;
+ }
+
+ /* Styling for container elements */
+ .container {
+    border: 4px outset #000;
+    width: 49%;
+    height: 70vh;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    overflow: auto;
+ }
+
+ /* Styling for individual items */
+ .item {
+    display: inline-block;
+    transition: opacity 0.3s ease-in-out;
+    margin-bottom: 5px;
+    cursor: move;
+    word-wrap: break-word;
+ }
+
+ /* Styling for button */
+ .button {
+    margin-bottom: 10px;
+ }
+
